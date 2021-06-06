@@ -29,5 +29,6 @@ export const formInputs = [
     rules: forgotPasswordRules[PASSWORD],
     label: 'Новий пароль',
     placeholder: 'Введіть новий пароль',
+	  isPassword: true,
   },
 ];
