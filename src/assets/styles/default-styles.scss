@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	transition: background-color .3s;
+}
+
+.ant-notification {
+	.success, .error {
+		border-radius: 5px;
+	}
+
+	.success {
+		border: 1px solid #0dc143;
+	}
+
+	.error {
+		border: 1px solid #ff4d4f;
+	}
+}
